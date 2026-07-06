@@ -438,7 +438,4 @@ Here's why I believe this is the most elegant, zero‑bloat solution ever:
 
 I wrote this script because I needed it myself. Seeing others adopt it and adapt it for their workflows – that's the true spirit of open source. To the maintainer, Ali-hey-0: you've turned a common pain point into a smooth, frictionless experience. Keep sharing, keep iterating, and never underestimate the impact of a well‑crafted batch file.
 
-Happy coding – one instance at a time. 🚀
-
-
-اگر سؤال یا ابهام
+Happy coding – one instance at a time
