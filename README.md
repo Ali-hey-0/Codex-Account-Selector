@@ -2,8 +2,8 @@
 <!-- PROJECT HEADER -->
 <br />
 <div align="center">
-  <a href="https://github.com/ali-hey-0/Codex-Account-Selector">
-    <img src="https://raw.githubusercontent.com/ali-hey-0/Codex-Account-Selector/main/assets/logo.png" alt="Logo" width="120" height="120">
+  <a href="https://github.com/Ali-hey-0/Codex-Account-Selector">
+    <img src="https://raw.githubusercontent.com/Ali-hey-0/Codex-Account-Selector/main/assets/logo.png" alt="Logo" width="120" height="120">
   </a>
 
   <h1 style="font-size: 3rem;">Codex Account Selector</h1>
@@ -14,19 +14,19 @@
 
   <!-- BADGES -->
   <p>
-    <a href="https://github.com/ali-hey-0/Codex-Account-Selector/releases">
-      <img src="https://img.shields.io/github/v/release/ali-hey-0/Codex-Account-Selector?include_prereleases&style=flat-square" alt="Release">
+    <a href="https://github.com/Ali-hey-0/Codex-Account-Selector/releases">
+      <img src="https://img.shields.io/github/v/release/Ali-hey-0/Codex-Account-Selector?include_prereleases&style=flat-square" alt="Release">
     </a>
-    <a href="https://github.com/ali-hey-0/Codex-Account-Selector/blob/main/LICENSE">
+    <a href="https://github.com/Ali-hey-0/Codex-Account-Selector/blob/main/LICENSE">
       <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License">
     </a>
     <img src="https://img.shields.io/badge/platform-Windows-0078D6?logo=windows&style=flat-square" alt="Platform">
     <img src="https://img.shields.io/badge/made%20with-Batch-1f425f?style=flat-square" alt="Made with Batch">
-    <a href="https://github.com/ali-hey-0/Codex-Account-Selector/stargazers">
-      <img src="https://img.shields.io/github/stars/ali-hey-0/Codex-Account-Selector?style=social" alt="Stars">
+    <a href="https://github.com/Ali-hey-0/Codex-Account-Selector/stargazers">
+      <img src="https://img.shields.io/github/stars/Ali-hey-0/Codex-Account-Selector?style=social" alt="Stars">
     </a>
-    <a href="https://github.com/ali-hey-0/Codex-Account-Selector/network/members">
-      <img src="https://img.shields.io/github/forks/ali-hey-0/Codex-Account-Selector?style=social" alt="Forks">
+    <a href="https://github.com/Ali-hey-0/Codex-Account-Selector/network/members">
+      <img src="https://img.shields.io/github/forks/Ali-hey-0/Codex-Account-Selector?style=social" alt="Forks">
     </a>
     <img src="https://img.shields.io/badge/status-active-success?style=flat-square" alt="Status">
   </p>
@@ -69,7 +69,7 @@
 
 ## 🚀 Quick Start
 
-1. **Download** the [latest `ac-codex.bat`](https://github.com/ali-hey-0/Codex-Account-Selector/releases/latest) from this repository.
+1. **Download** the [latest `ac-codex.bat`](https://github.com/Ali-hey-0/Codex-Account-Selector/releases/latest) from this repository.
 2. **Double‑click** the script.
 3. **Pick an account** (1‑4) and a fresh Codex window opens instantly.
 
@@ -80,7 +80,7 @@ Repeat for any other account – they all run side‑by‑side, completely isola
 ### 📸 See It In Action
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ali-hey-0/Codex-Account-Selector/main/assets/screenshot.png" alt="Codex Account Selector in Action" width="800">
+  <img src="https://raw.githubusercontent.com/Ali-hey-0/Codex-Account-Selector/main/assets/screenshot.png" alt="Codex Account Selector in Action" width="800">
   <p><em>Multiple Codex instances running simultaneously with full isolation</em></p>
 </div>
 
@@ -100,9 +100,9 @@ Repeat for any other account – they all run side‑by‑side, completely isola
 
 ## 🏗️ Architecture – The N→N Model
 
-Every Electron/Chromium app (like Codex) honours the `--user-data-dir` command‑line flag. When you supply a unique folder path, **all local state** – authentication tokens, preferences, cached fil[...]
+Every Electron/Chromium app (like Codex) honours the `--user-data-dir` command‑line flag. When you supply a unique folder path, **all local state** – authentication tokens, preferences, cache[...]
 
-This script takes **one** installed copy of `Codex.exe` and launches **N** independent processes, each pointed at a distinct `--user-data-dir`. The result is a clean **N executables → N data directo[...]
+This script takes **one** installed copy of `Codex.exe` and launches **N** independent processes, each pointed at a distinct `--user-data-dir`. The result is a clean **N executables → N data di[...]
 
 ```mermaid
 flowchart TD
@@ -156,7 +156,7 @@ There are no symlinks, virtual machines, or container engines – just the appli
 ### Option 1: Clone (Git)
 
 ```bash
-git clone https://github.com/ali-hey-0/Codex-Account-Selector.git
+git clone https://github.com/Ali-hey-0/Codex-Account-Selector.git
 cd Codex-Account-Selector
 ```
 
@@ -426,9 +426,9 @@ If this project saved you time or made your life easier, give it a Star ⭐ on G
 
 ## ✒️ Author's Opinion
 
-When I first needed two Codex accounts open simultaneously, I looked at the obvious solutions: virtual machines, separate Windows users, third‑party sandboxing tools. Every single one of them felt like overkill.
+When I first needed two Codex accounts open simultaneously, I looked at the obvious solutions: virtual machines, separate Windows users, third‑party sandboxing tools. Every single one of them f[...]
 
-Then I remembered: Chromium apps have a native --user-data-dir flag. It's not a workaround – it's an intended feature that Electron and Chrome developers use every day for testing and multi‑profiling scenarios.
+Then I remembered: Chromium apps have a native --user-data-dir flag. It's not a workaround – it's an intended feature that Electron and Chrome developers use every day for testing and multi‑p[...]
 
 Here's why I believe this is the most elegant, zero‑bloat solution ever:
 
@@ -438,6 +438,6 @@ Here's why I believe this is the most elegant, zero‑bloat solution ever:
 - 🧰 **Hackable to the core** – Advanced users can extend it with custom parameters, pre‑configured workspaces, or launch scripts without ever touching the original installation.
 - 🏎️ **Resource‑friendly** – Running 4 Codex instances uses only marginally more RAM than 1, because the core runtime is shared. Compare that to 4 VMs.
 
-I wrote this script because I needed it myself. Seeing others adopt it and adapt it for their workflows – that's the true spirit of open source. To the maintainer, ali-hey-0: you've turned a common pain into an elegant solution.
+I wrote this script because I needed it myself. Seeing others adopt it and adapt it for their workflows – that's the true spirit of open source. To the maintainer, ali-hey-0: you've turned a co[...]
 
 Happy coding – one instance at a time. 🚀
