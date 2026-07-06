@@ -77,7 +77,14 @@ Repeat for any other account – they all run side‑by‑side, completely isola
 
 > 💡 No installation, no admin rights needed. The script lives wherever you put it.
 
+### 📸 See It In Action
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ali-hey-0/Codex-Account-Selector/main/assets/screenshot.png" alt="Codex Account Selector in Action" width="800">
+  <p><em>Multiple Codex instances running simultaneously with full isolation</em></p>
+</div>
+
+---
 
 ## ✨ Features
 
@@ -421,7 +428,7 @@ If this project saved you time or made your life easier, give it a Star ⭐ on G
 
 When I first needed two Codex accounts open simultaneously, I looked at the obvious solutions: virtual machines, separate Windows users, third‑party sandboxing tools. Every single one of them felt like overkill.
 
-Then I remembered: Chromium apps have a native --user-data-dir flag. It's not a workaround – it's an intended feature that Electron and Chrome developers use every day for testing and multi‑profile scenarios.
+Then I remembered: Chromium apps have a native --user-data-dir flag. It's not a workaround – it's an intended feature that Electron and Chrome developers use every day for testing and multi‑profiling scenarios.
 
 Here's why I believe this is the most elegant, zero‑bloat solution ever:
 
@@ -431,6 +438,6 @@ Here's why I believe this is the most elegant, zero‑bloat solution ever:
 - 🧰 **Hackable to the core** – Advanced users can extend it with custom parameters, pre‑configured workspaces, or launch scripts without ever touching the original installation.
 - 🏎️ **Resource‑friendly** – Running 4 Codex instances uses only marginally more RAM than 1, because the core runtime is shared. Compare that to 4 VMs.
 
-I wrote this script because I needed it myself. Seeing others adopt it and adapt it for their workflows – that's the true spirit of open source. To the maintainer, ali-hey-0: you've turned a common problem into an elegant solution.
+I wrote this script because I needed it myself. Seeing others adopt it and adapt it for their workflows – that's the true spirit of open source. To the maintainer, ali-hey-0: you've turned a common pain into an elegant solution.
 
 Happy coding – one instance at a time. 🚀
